@@ -44,10 +44,12 @@
             ></com.google.android.material.button.MaterialButton>
 
         <com.google.android.material.button.MaterialButton style="@style/btn_type1"
-            android:drawableEnd="@drawable/divide_straight_svgrepo_com"
+android:drawableEnd="@drawable/baseline_percent_24"
             ></com.google.android.material.button.MaterialButton>
 
-        <com.google.android.material.button.MaterialButton style="@style/btn_type3"></com.google.android.material.button.MaterialButton>
+        <com.google.android.material.button.MaterialButton style="@style/btn_type3"
+            android:drawableEnd="@drawable/divide_straight_svgrepo_com"
+            ></com.google.android.material.button.MaterialButton>
 
         <com.google.android.material.button.MaterialButton style="@style/btn_type2"
             android:text="@string/_7"
@@ -61,7 +63,9 @@
             android:text="@string/_9"
             ></com.google.android.material.button.MaterialButton>
 
-        <com.google.android.material.button.MaterialButton style="@style/btn_type3"></com.google.android.material.button.MaterialButton>
+        <com.google.android.material.button.MaterialButton style="@style/btn_type3"
+            android:drawableEnd="@drawable/baseline_close_24"
+            ></com.google.android.material.button.MaterialButton>
 
         <com.google.android.material.button.MaterialButton style="@style/btn_type2"
             android:text="@string/_4"
