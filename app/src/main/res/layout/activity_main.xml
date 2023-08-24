@@ -25,94 +25,105 @@
         android:id="@+id/gridLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="24dp"
         android:layout_marginBottom="28dp"
         android:columnCount="4"
         android:rowCount="5"
         app:layout_constraintBottom_toBottomOf="parent"
 
 
-        app:layout_constraintEnd_toEndOf="parent">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
 
 
-        <com.google.android.material.button.MaterialButton style="@style/btn_type1"
+        <com.google.android.material.button.MaterialButton
+            style="@style/btn_type1"
             android:text="@string/ac"
-            ></com.google.android.material.button.MaterialButton>
+            android:textSize="14sp"></com.google.android.material.button.MaterialButton>
 
-        <com.google.android.material.button.MaterialButton style="@style/btn_type1"
+        <com.google.android.material.button.MaterialButton
+            style="@style/btn_type1"
             android:drawableEnd="@drawable/baseline_backspace_24"
-            ></com.google.android.material.button.MaterialButton>
+            android:hint="@string/backspace"></com.google.android.material.button.MaterialButton>
 
-        <com.google.android.material.button.MaterialButton style="@style/btn_type1"
-android:drawableEnd="@drawable/baseline_percent_24"
-            ></com.google.android.material.button.MaterialButton>
+        <com.google.android.material.button.MaterialButton
+            style="@style/btn_type1"
+            android:drawableEnd="@drawable/baseline_percent_24"
+            android:hint="@string/percentage"></com.google.android.material.button.MaterialButton>
 
-        <com.google.android.material.button.MaterialButton style="@style/btn_type3"
+        <com.google.android.material.button.MaterialButton
+            style="@style/btn_type3"
             android:drawableEnd="@drawable/divide_straight_svgrepo_com"
-            ></com.google.android.material.button.MaterialButton>
+            android:hint="@string/divide"></com.google.android.material.button.MaterialButton>
 
-        <com.google.android.material.button.MaterialButton style="@style/btn_type2"
-            android:text="@string/_7"
-            ></com.google.android.material.button.MaterialButton>
+        <com.google.android.material.button.MaterialButton
+            style="@style/btn_type2"
 
-        <com.google.android.material.button.MaterialButton style="@style/btn_type2"
-            android:text="@string/_8"
-            ></com.google.android.material.button.MaterialButton>
+            android:text="@string/btn7"></com.google.android.material.button.MaterialButton>
 
-        <com.google.android.material.button.MaterialButton style="@style/btn_type2"
-            android:text="@string/_9"
-            ></com.google.android.material.button.MaterialButton>
+        <com.google.android.material.button.MaterialButton
+            style="@style/btn_type2"
+            android:text="@string/btn8"></com.google.android.material.button.MaterialButton>
 
-        <com.google.android.material.button.MaterialButton style="@style/btn_type3"
+        <com.google.android.material.button.MaterialButton
+            style="@style/btn_type2"
+            android:text="@string/btn9"></com.google.android.material.button.MaterialButton>
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/btn_type3"
             android:drawableEnd="@drawable/baseline_close_24"
-            ></com.google.android.material.button.MaterialButton>
+            android:hint="@string/multiply"></com.google.android.material.button.MaterialButton>
 
-        <com.google.android.material.button.MaterialButton style="@style/btn_type2"
-            android:text="@string/_4"
-            ></com.google.android.material.button.MaterialButton>
+        <com.google.android.material.button.MaterialButton
+            style="@style/btn_type2"
+            android:text="@string/btn4"></com.google.android.material.button.MaterialButton>
 
-        <com.google.android.material.button.MaterialButton style="@style/btn_type2"
-            android:text="@string/_5"
-            ></com.google.android.material.button.MaterialButton>
+        <com.google.android.material.button.MaterialButton
+            style="@style/btn_type2"
+            android:text="@string/btn5"></com.google.android.material.button.MaterialButton>
 
-        <com.google.android.material.button.MaterialButton style="@style/btn_type2"
-            android:text="@string/_6"
-            ></com.google.android.material.button.MaterialButton>
+        <com.google.android.material.button.MaterialButton
+            style="@style/btn_type2"
+            android:text="@string/btn6"></com.google.android.material.button.MaterialButton>
 
-        <com.google.android.material.button.MaterialButton style="@style/btn_type3"
+        <com.google.android.material.button.MaterialButton
+            style="@style/btn_type3"
             android:drawableEnd="@drawable/baseline_add_24"
-            ></com.google.android.material.button.MaterialButton>
+            android:hint="@string/add"></com.google.android.material.button.MaterialButton>
 
-        <com.google.android.material.button.MaterialButton style="@style/btn_type2"
-            android:text="@string/_1"
-            ></com.google.android.material.button.MaterialButton>
+        <com.google.android.material.button.MaterialButton
+            style="@style/btn_type2"
+            android:text="@string/btn1"></com.google.android.material.button.MaterialButton>
 
-        <com.google.android.material.button.MaterialButton style="@style/btn_type2"
-            android:text="@string/_2"
-            ></com.google.android.material.button.MaterialButton>
+        <com.google.android.material.button.MaterialButton
+            style="@style/btn_type2"
+            android:text="@string/btn2"></com.google.android.material.button.MaterialButton>
 
-        <com.google.android.material.button.MaterialButton style="@style/btn_type2"
-            android:text="@string/_3"
-            ></com.google.android.material.button.MaterialButton>
+        <com.google.android.material.button.MaterialButton
+            style="@style/btn_type2"
+            android:text="@string/btn3"></com.google.android.material.button.MaterialButton>
 
-        <com.google.android.material.button.MaterialButton style="@style/btn_type3"
+        <com.google.android.material.button.MaterialButton
+            style="@style/btn_type3"
             android:drawableEnd="@drawable/baseline_horizontal_rule_24"
-            ></com.google.android.material.button.MaterialButton>
+            android:hint="@string/minus"></com.google.android.material.button.MaterialButton>
 
-        <com.google.android.material.button.MaterialButton style="@style/btn_type2"
+        <com.google.android.material.button.MaterialButton
+            style="@style/btn_type2"
             android:layout_columnSpan="2"
             android:layout_columnWeight="2"
-            android:text="@string/_0"
-            ></com.google.android.material.button.MaterialButton>
+            android:text="@string/btn0"
+            tools:ignore="DuplicateSpeakableTextCheck"></com.google.android.material.button.MaterialButton>
 
 
-        <com.google.android.material.button.MaterialButton style="@style/btn_type2"
+        <com.google.android.material.button.MaterialButton
+            style="@style/btn_type2"
             android:drawableEnd="@drawable/circle_filled_circle_radio_filled_round_bullet_svgrepo_com"
-            ></com.google.android.material.button.MaterialButton>
+            android:hint="@string/dot"></com.google.android.material.button.MaterialButton>
 
-        <com.google.android.material.button.MaterialButton style="@style/btn_type3"
+        <com.google.android.material.button.MaterialButton
+            style="@style/btn_type3"
             android:drawableEnd="@drawable/equal_svgrepo_com"
-            ></com.google.android.material.button.MaterialButton>
+            android:hint="@string/equal"></com.google.android.material.button.MaterialButton>
 
 
     </GridLayout>
