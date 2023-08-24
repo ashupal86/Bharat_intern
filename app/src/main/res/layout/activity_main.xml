@@ -36,73 +36,88 @@
 
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/ac"
             style="@style/btn_type1"
             android:text="@string/ac"
             android:textSize="14sp"></com.google.android.material.button.MaterialButton>
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/back"
             style="@style/btn_type1"
             android:drawableEnd="@drawable/baseline_backspace_24"
             android:hint="@string/backspace"></com.google.android.material.button.MaterialButton>
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/percent"
             style="@style/btn_type1"
             android:drawableEnd="@drawable/baseline_percent_24"
             android:hint="@string/percentage"></com.google.android.material.button.MaterialButton>
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/divide"
             style="@style/btn_type3"
             android:drawableEnd="@drawable/divide_straight_svgrepo_com"
             android:hint="@string/divide"></com.google.android.material.button.MaterialButton>
 
         <com.google.android.material.button.MaterialButton
             style="@style/btn_type2"
-
+android:id="@+id/btn7"
             android:text="@string/btn7"></com.google.android.material.button.MaterialButton>
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn8"
             style="@style/btn_type2"
             android:text="@string/btn8"></com.google.android.material.button.MaterialButton>
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn9"
             style="@style/btn_type2"
             android:text="@string/btn9"></com.google.android.material.button.MaterialButton>
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/multiply"
             style="@style/btn_type3"
             android:drawableEnd="@drawable/baseline_close_24"
             android:hint="@string/multiply"></com.google.android.material.button.MaterialButton>
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn4"
             style="@style/btn_type2"
             android:text="@string/btn4"></com.google.android.material.button.MaterialButton>
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn5"
             style="@style/btn_type2"
             android:text="@string/btn5"></com.google.android.material.button.MaterialButton>
 
         <com.google.android.material.button.MaterialButton
             style="@style/btn_type2"
+            android:id="@+id/btn6"
             android:text="@string/btn6"></com.google.android.material.button.MaterialButton>
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/add"
             style="@style/btn_type3"
             android:drawableEnd="@drawable/baseline_add_24"
             android:hint="@string/add"></com.google.android.material.button.MaterialButton>
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn1"
             style="@style/btn_type2"
             android:text="@string/btn1"></com.google.android.material.button.MaterialButton>
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn2"
             style="@style/btn_type2"
             android:text="@string/btn2"></com.google.android.material.button.MaterialButton>
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn3"
             style="@style/btn_type2"
             android:text="@string/btn3"></com.google.android.material.button.MaterialButton>
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/minus"
             style="@style/btn_type3"
             android:drawableEnd="@drawable/baseline_horizontal_rule_24"
             android:hint="@string/minus"></com.google.android.material.button.MaterialButton>
@@ -111,16 +126,19 @@
             style="@style/btn_type2"
             android:layout_columnSpan="2"
             android:layout_columnWeight="2"
+            android:id="@+id/btn0"
             android:text="@string/btn0"
             tools:ignore="DuplicateSpeakableTextCheck"></com.google.android.material.button.MaterialButton>
 
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/dot"
             style="@style/btn_type2"
             android:drawableEnd="@drawable/circle_filled_circle_radio_filled_round_bullet_svgrepo_com"
             android:hint="@string/dot"></com.google.android.material.button.MaterialButton>
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/equal"
             style="@style/btn_type3"
             android:drawableEnd="@drawable/equal_svgrepo_com"
             android:hint="@string/equal"></com.google.android.material.button.MaterialButton>
