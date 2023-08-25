@@ -23,6 +23,15 @@
     <string name="backspace">backspace</string>
     <string name="dot">dot</string>
 
+    <string name="equalbtn">=</string>
+    <string name="addbtn">+</string>
+    <string name="minusbtn">-</string>
+    <string name="multiplybtn">*</string>
+    <string name="dividebtn">/</string>
+    <string name="percentagebtn">%</string>
+    <string name="backspacebtn">""</string>
+    <string name="dotbnt">.</string>
+
 
 
 
