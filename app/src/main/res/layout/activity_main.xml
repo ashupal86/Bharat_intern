@@ -40,12 +40,14 @@
             android:id="@+id/ac"
             style="@style/btn_type1"
             android:text="@string/ac"
+            android:onClick="ac"
             android:textSize="14sp"></com.google.android.material.button.MaterialButton>
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/back"
             style="@style/btn_type1"
             android:text="@string/backspacebtn"
+            android:onClick="back"
             android:drawableEnd="@drawable/baseline_backspace_24"
             android:hint="@string/backspace"></com.google.android.material.button.MaterialButton>
 
