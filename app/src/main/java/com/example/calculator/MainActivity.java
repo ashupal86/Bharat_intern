@@ -79,7 +79,7 @@ tv.setText(ans);
 
         for(int i=0;i<arr2.size()+1;i++){
             if(arr2.contains("%") ){
-
+//Not working yet
             double a=Double.parseDouble(arr2.get(arr2.indexOf("%")-1).toString());
             double b=Double.parseDouble(arr2.get(arr2.indexOf("%")+1).toString());
 
@@ -160,10 +160,11 @@ return Answer;
         tv.setText("");
     }
     public void back(View v){
-        TextView tv=findViewById(R.id.textView);
-        String data=tv.getText().toString();
-        data=data.substring(0,data.length()-1);
+
         try {
+            TextView tv=findViewById(R.id.textView);
+            String data=tv.getText().toString();
+            data=data.substring(0,data.length()-1);
             tv.setText(data);
         }catch (Exception e){
             tv.setText("Err");
