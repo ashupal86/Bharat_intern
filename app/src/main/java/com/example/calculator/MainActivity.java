@@ -30,7 +30,7 @@ String ans=calculate(data);
 tv.setText(ans);
 
                 }catch (Exception e){
-                    tv.setText("Err");
+                    tv.setText("");
                 }
 
             }
@@ -164,10 +164,22 @@ return Answer;
         try {
             TextView tv=findViewById(R.id.textView);
             String data=tv.getText().toString();
-            data=data.substring(0,data.length()-1);
-            tv.setText(data);
+
+            if (data==""){tv.setText("");}
+
+            else{
+                    data=data.substring(0,data.length()-1);
+                    tv.setText(data);}
+
+
+
         }catch (Exception e){
-            tv.setText("Err");
+            tv.setText("");
+
+
+        }
+        finally {
+            tv.setText("");
         }
 
     }
